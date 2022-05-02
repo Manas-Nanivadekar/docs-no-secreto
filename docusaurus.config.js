@@ -25,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/Manas-Nanivadekar/os-passwordless",
+          editUrl: "https://github.com/Manas-Nanivadekar/docs-os-passwordless",
           remarkPlugins: [
             [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
           ],
@@ -54,7 +54,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/Manas-Nanivadekar/os-passwordless",
+            href: "https://github.com/Manas-Nanivadekar/docs-os-passwordless",
             label: "GitHub",
             position: "right",
           },
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/Manas-Nanivadekar/os-passwordless",
+                href: "https://github.com/Manas-Nanivadekar/docs-os-passwordless",
               },
             ],
           },
