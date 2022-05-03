@@ -10,4 +10,4 @@ import { verifyOTP } from "os-passwordless";
 const verify = verifyOTP("users@emailId.com", "OtpEnteredByUser");
 ```
 
-This function returns true if the OTP is valid and false if it is not.
+This function returns **user** if the OTP is valid and false if it is not.
