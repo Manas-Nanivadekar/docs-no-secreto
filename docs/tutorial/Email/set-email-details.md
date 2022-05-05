@@ -26,11 +26,11 @@ As of 02/05/2022, Gmail has changed the password policy. You will need to genera
 
 - After enabling 2-Step Verification you'll see another option that is App Passwords. Click on this option and you'll see a page like the one shown below in the image.
 
-![google-2-step-verification](../../assets/gmail-1.png)
+![google-2-step-verification](../../../assets/gmail-1.png)
 
 To create a new app password click "Select app" combobox, select Other, define a name and click in Generate. A dialog box will appear with the password. See below.
 
-![google-2-step-verification](../../assets/gmail-2.png)
+![google-2-step-verification](../../../assets/gmail-2.png)
 
 copy the password and paste it in the `password` field at Step-2.
 

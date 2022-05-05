@@ -1,0 +1,8 @@
+{
+  "label": "Tutorial",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Start using passwordless authentication in 5 mins"
+  }
+}

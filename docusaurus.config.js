@@ -9,7 +9,7 @@ const config = {
   title: "os-passwordless",
   tagline:
     "Fast, Unopinionated, Minimalistic Open-Source Passwordless Authentication Library for NodeJs.",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://docs-os-passwordless.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -25,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/Manas-Nanivadekar/docs-os-passwordless",
+          editUrl: "https://github.com/Manas-Nanivadekar/os-passwordless",
           remarkPlugins: [
             [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
           ],
