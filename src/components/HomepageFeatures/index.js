@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Fast",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/fast.svg").default,
     description: (
       <>
         os-passwordless was designed to be easy to use and to get started
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "Unopinionated",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/uop.svg").default,
     description: (
       <>
         os-passwordless is built in a way that makes it easy to use and to
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "Open Source",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/op.svg").default,
     description: (
       <>os-passwordless is MIT licensed and available for any use.</>
     ),

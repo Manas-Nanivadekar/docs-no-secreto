@@ -44,7 +44,7 @@ const config = {
         title: "os-sswordless",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/android-chrome-192x192.png",
         },
         items: [
           {
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/Manas-Nanivadekar/docs-os-passwordless",
+                href: "https://github.com/Manas-Nanivadekar/os-passwordless",
               },
             ],
           },
