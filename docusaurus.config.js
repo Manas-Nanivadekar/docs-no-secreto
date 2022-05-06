@@ -54,7 +54,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/Manas-Nanivadekar/docs-os-passwordless",
+            href: "https://github.com/Manas-Nanivadekar/os-passwordless",
             label: "GitHub",
             position: "right",
           },
