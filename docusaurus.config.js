@@ -6,16 +6,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "os-passwordless",
+  title: "no-secreto",
   tagline:
     "Fast, Unopinionated, Minimalistic Open-Source Passwordless Authentication Library for NodeJs.",
-  url: "https://docs-os-passwordless.vercel.app/",
+  url: "https://docs-no-secreto.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "Manas-Nanivadekar", // Usually your GitHub org/user name.
-  projectName: "os-passwordless", // Usually your repo name.
+  projectName: "no-secreto", // Usually your repo name.
 
   presets: [
     [
@@ -25,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/Manas-Nanivadekar/os-passwordless",
+          editUrl: "https://github.com/Manas-Nanivadekar/no-secreto",
           remarkPlugins: [
             [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
           ],
@@ -54,7 +54,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/Manas-Nanivadekar/os-passwordless",
+            href: "https://github.com/Manas-Nanivadekar/no-secreto",
             label: "GitHub",
             position: "right",
           },
@@ -94,12 +94,12 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/Manas-Nanivadekar/os-passwordless",
+                href: "https://github.com/Manas-Nanivadekar/no-secreto",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} os-passwordless, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} no-secreto, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

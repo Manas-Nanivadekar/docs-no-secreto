@@ -8,7 +8,7 @@ In order to send OTP to the user, we need to set the email details.
 
 # By Using Default Settings
 
-Under the hode, os-passwordless uses **nodemailer** to send OTP to the user. The default settings are:
+Under the hode, no-secreto uses **nodemailer** to send OTP to the user. The default settings are:
 
     {
       "host": "smtp.gmail.com",
@@ -39,7 +39,7 @@ copy the password and paste it in the `password` field at Step-2.
 Use the following code to set the email details:
 
 ```javascript
-import { setEmailDetails } from "os-passwordless";
+import { setEmailDetails } from "no-secreto";
 
 const setDetails = setEmailDetails("your@emailid.com", "yourpassword");
 ```
@@ -51,7 +51,7 @@ This will set email details and return true
 You can also use another smtp provider to send OTP to the user.
 
 ```javascript
-import { updateDetails } from "os-passwordless";
+import { updateDetails } from "no-secreto";
 
 */
 @param {string} smtp host

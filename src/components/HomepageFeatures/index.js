@@ -7,10 +7,7 @@ const FeatureList = [
     title: "Fast",
     Svg: require("@site/static/img/fast.svg").default,
     description: (
-      <>
-        os-passwordless was designed to be easy to use and to get started
-        quickly.
-      </>
+      <>no-secreto was designed to be easy to use and to get started quickly.</>
     ),
   },
   {
@@ -18,17 +15,15 @@ const FeatureList = [
     Svg: require("@site/static/img/uop.svg").default,
     description: (
       <>
-        os-passwordless is built in a way that makes it easy to use and to
-        customize it to your needs.
+        no-secreto is built in a way that makes it easy to use and to customize
+        it to your needs.
       </>
     ),
   },
   {
     title: "Open Source",
     Svg: require("@site/static/img/op.svg").default,
-    description: (
-      <>os-passwordless is MIT licensed and available for any use.</>
-    ),
+    description: <>no-secreto is MIT licensed and available for any use.</>,
   },
 ];
 

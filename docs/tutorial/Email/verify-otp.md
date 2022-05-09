@@ -5,7 +5,7 @@ sidebar_position: 3
 # Verify OTP
 
 ```javascript
-import { verifyOTP } from "os-passwordless";
+import { verifyOTP } from "no-secreto";
 
 const verify = verifyOTP("users@emailId.com", "OtpEnteredByUser");
 ```

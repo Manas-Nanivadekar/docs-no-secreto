@@ -7,7 +7,7 @@ sidebar_position: 3
 You can verify the OTP sent to your mobile number by using the following way:
 
 ```js
-import { verifySMS } from "os-passwordless";
+import { verifySMS } from "no-secreto";
 
 const verify = await verifySMS("+XXXXXXXXXX", "OTP");
 ```

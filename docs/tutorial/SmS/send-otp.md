@@ -7,7 +7,7 @@ sidebar_position: 2
 Once you have set up SMS details, you can use it to send SMS otp.
 
 ```js
-import { sendSMS } from "os-passwordless";
+import { sendSMS } from "no-secreto";
 
 const sms = sendSMS("+XXXXXXXXXX");
 ```

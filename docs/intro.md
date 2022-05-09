@@ -4,17 +4,17 @@ sidebar_position: 1
 
 # Getting Started
 
-Let's discover **os-passwordless**.
+Let's discover **no-secreto**.
 
 :::caution
 
-This is a **beta** version of os-passwordless. It is not ready for production use yet.
+This is a **beta** version of no-secreto. It is not ready for production use yet.
 
 :::
 
-## What is os-passwordless?
+## What is no-secreto?
 
-os-passwordless is a library to help you add passwordless authentication in your nodejs applicaiton.
+no-secreto is a library to help you add passwordless authentication in your nodejs applicaiton.
 
 ## Installation
 
@@ -27,7 +27,7 @@ npm init command.
 ```
 
 ```bash npm2yarn
-npm install os-passwordless
+npm install no-secreto
 ```
 
 ### What you'll need
@@ -37,6 +37,6 @@ npm install os-passwordless
 
 ## Types
 
-Although there are many types of passwordless authentication, os-passwordless supports only one type as of now:
+Although there are many types of passwordless authentication, no-secreto supports only one type as of now:
 
 - email-based passwordless authentication.

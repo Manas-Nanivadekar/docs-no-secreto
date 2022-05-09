@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::info
 
-For sending SMS otp, currently **os-passwordless** supports only **Twilio**. You need a twilio account to use this feature. You can sign up for a twilio account [here](https://www.twilio.com/).
+For sending SMS otp, currently **no-secreto** supports only **Twilio**. You need a twilio account to use this feature. You can sign up for a twilio account [here](https://www.twilio.com/).
 
 :::
 
@@ -14,7 +14,7 @@ In this tutorial, we will learn how to set up SMS based passwordless authenticat
 You need to provide your Twilio account details to use this feature. It is done in the following way:
 
 ```js
-import { setSMSDetails } from "os-passwordless";
+import { setSMSDetails } from "no-secreto";
 
 const details = {
   accountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
