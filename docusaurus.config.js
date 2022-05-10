@@ -101,6 +101,11 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} no-secreto, Inc. Built with Docusaurus.`,
       },
+      announcementBar: {
+        id: "supportus",
+        content:
+          '⭐️ If you like no-secreto, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/manas-nanivadekar/no-secreto">GitHub</a>! ⭐️',
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
